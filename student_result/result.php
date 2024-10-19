@@ -27,7 +27,8 @@ function result($subject1, $subject2, $subject3, $subject4, $subject5) {
     }   
 }
 
-echo result(70, 60, 65, 75, 80);
+echo result(70, 78, 83, 87, 94);
+
 
 
 
