@@ -14,7 +14,7 @@ Create a registration form using HTML and CSS
 6. Gender (Male, Female, Other)
 
 ### HTML Structure: 
-Create an HTML file with the basic structure ("<!DOCTYPE html>, <html>, <head>, <title>, <form> <body>").
+Create an HTML file with the basic structure.
 
 ### CSS Styling: 
 1. Set a width and height for the card.
