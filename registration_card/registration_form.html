@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <!-- Container for the form -->
+    <div class="form-container">
+        <form action="#" method="POST" class="registration-form">
+            <fieldset>
+                <legend>Registration Form</legend>
+
+                <!-- Form fields for registration -->
+                <div class="formFields">
+                    <div class="formLeft">
+                        <div class="form-group">
+                            <label for="full-name">Full Name: </label>
+                            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="email">Email: </label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password: </label>
+                            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                        </div>
+                        <div class="radioBtn">
+                            <label for="gender">Gender: </label>
+                            
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                            
+                            <input type="radio" name="gender" id="other"> 
+                            <label for="other">Other</label> 
+                        </div>
+                    </div>
+
+                    <div class="formRight">
+                        <div class="form-group">
+                            <label for="username">Username: </label>
+                            <input type="text" id="username" name="username" placeholder="Choose a username" required>
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="phone">Phone Number: </label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                        </div>
+                    
+                        <div class="form-group">
+                            <label for="confirm-password">Confirm Password: </label>
+                            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Buttons Area -->
+                <div class="submitArea">
+                    <button type="reset" class="resetBtn">Reset</button>
+                    <button type="submit" class="submitBtn">Submit</button>
+                </div>
+            
+                <p class="login-link">Already have an account? <a href="#">Login here</a></p>  
+            </fieldset>
+        </form>
+      </div>
+
+</body>
+</html>

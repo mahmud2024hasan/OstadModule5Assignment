@@ -1,0 +1,140 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the body */
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202975;
+  }
+  
+  /* Container for the form */
+  .form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  /* Form styles */
+  .registration-form fieldset{
+    padding: 20px 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  .registration-form fieldset legend{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .formFields{
+    display: flex;
+    justify-content: space-between;
+    
+ } 
+
+ .formLeft, .formRight{
+    width: 48%;
+ }
+
+  .form-group {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  label {
+    width: 80px;
+    margin-right: 8px;
+    font-weight: 500;
+    color: #1e1e1e;
+    text-align: right;
+  }
+  
+  input{
+    flex-grow: 1;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus{
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .radioBtn{
+    margin: 0 0 20px 20px;
+  }
+
+  .submitArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .submitArea > button {
+    width: 100%;
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .resetBtn{
+    background: rgb(218,54,45);
+    background: linear-gradient(90deg, #da362d 0%, #e0675f 50%, #f7837c 100%);
+  }
+
+  .resetBtn:hover{
+    background: rgb(247,131,124);
+    background: linear-gradient(90deg, #f7837c 0%, #e0675f 50%, #da362d 100%);
+  }
+
+  .submitBtn{
+    background: rgb(116, 116, 219);
+    background: linear-gradient(90deg, #7474dd 0%, #6a50a8 50%, #202975 100%);
+  }
+
+  .submitBtn:hover {
+    background: rgb(32,41,117);
+    background: linear-gradient(90deg, #202975 0%, #6b51a8 50%, #7272db 100%);
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  
