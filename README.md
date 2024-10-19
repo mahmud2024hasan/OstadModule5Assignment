@@ -4,7 +4,6 @@
 ----------------
 Create a registration form using HTML and CSS 
 
-Requirements:
 ### The registration form should contain the following fields:
 1. Full Name
 2. Username
@@ -27,7 +26,6 @@ Create an HTML file with the basic structure ("<!DOCTYPE html>, <html>, <head>, 
 7. Vertical and Horizontal Middle Alignment:
 8. Ensure the registration card is centered both horizontally and vertically on the page.
 
-
 ### The form must follow these specific design requirements:
 1. The form should be horizontally and vertically centered on the page.
 2. Each label should be aligned to the left of the input fields.
@@ -35,6 +33,7 @@ Create an HTML file with the basic structure ("<!DOCTYPE html>, <html>, <head>, 
 4. Gender options should be placed horizontally.
 5. The submit button should be styled with a gradient background, similar to the one shown in the image.
 6. Ensure proper spacing and alignment for all the elements.
+
 
 
 ## Task 2 : Marks (60)
@@ -57,7 +56,3 @@ F: Below 33
 
 4. Output:The program should output the total marks, average marks, and the grade. If the student fails, output a message indicating the failure.
 
-Output: 
-Total Marks: 232
-Average Marks: 46.4
-Grade: C
