@@ -1,6 +1,6 @@
 # Ostad Module-5 Assignment
 
-Task 1 : Marks (40)
+## Task 1 : Marks (40)
 ----------------
 Create a registration form using HTML and CSS 
 
@@ -15,7 +15,7 @@ Requirements:
 6. Gender (Male, Female, Other)
 
 ### HTML Structure: 
-Create an HTML file with the basic structure (<!DOCTYPE html>, <html>, <head>, <title>, <form> <body>).
+Create an HTML file with the basic structure ("<!DOCTYPE html>, <html>, <head>, <title>, <form> <body>").
 
 ### CSS Styling: 
 1. Set a width and height for the card.
@@ -34,27 +34,18 @@ Create an HTML file with the basic structure (<!DOCTYPE html>, <html>, <head>, <
 3. Arrange "Full Name" and "Username" side by side, and similarly, "Email" and "Phone Number," and "Password" and "Confirm Password."
 4. Gender options should be placed horizontally.
 5. The submit button should be styled with a gradient background, similar to the one shown in the image.
-
 6. Ensure proper spacing and alignment for all the elements.
 
 
-
-
-2. PHP Program to Calculate Student Result Using Function and Switch-Case Based
-
-
- 
-
-
-Task 2 : Marks (60)
-
-
+## Task 2 : Marks (60)
 ----------------
 Create a PHP program to calculate the student result based on the marks obtained in five subjects. Use a function for calculating the result and a switch-case statement for determining the grade.
 
-The program should include the following conditions:
+### The program should include the following conditions:
 1. Mark Range Validation: Each subject's marks should be validated to ensure they are between 0 and 100. If a user enters invalid marks, just print mark range is invalid.
+
 2. Fail Condition: If a student scores below 33 in any subject, they should be considered failed.
+
 3. Grade Calculation: If a student passes, calculate the total marks, average marks, and assign a grade based on the average:
 A+: 80 to 100
 A: 70 to 79
